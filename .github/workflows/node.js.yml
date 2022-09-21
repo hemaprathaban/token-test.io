@@ -26,5 +26,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    -run:  cd  eet-token/client
+    -run:  cd  client
     -run:  npm start
